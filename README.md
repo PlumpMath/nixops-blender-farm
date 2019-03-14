@@ -2,9 +2,13 @@
 
 This is some code I set up a while back to deploy machines with blender on
 Digital Ocean with a mount pointing to a shared fileserver using WebDAV (or
-NFS). It might be helpful to you, but some work is needed to make it nice,
+NFS). 
+
+It might be helpful to you, but some work is needed to make it nice,
 havent tested it in a while either so there might be bugs/errors. Might fix
-those if I get some time.
+those if I get some time, or pls do a PR if this is somehow useful to you.
+
+* Specify machines in `deployment.nix`
 
 * Edit `nas.nix` to reflect your configuration
 
